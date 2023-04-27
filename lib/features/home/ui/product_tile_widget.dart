@@ -13,7 +13,6 @@ class ProductTileWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
     return Container(
-      height: screenSize.height,
       width: screenSize.width,
       margin: const EdgeInsets.all(10),
       padding: const EdgeInsets.all(10),
@@ -28,11 +27,11 @@ class ProductTileWidget extends StatelessWidget {
             image: NetworkImage(productDataModel.url),
             fit: BoxFit.cover,
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 10),
           Text(productDataModel.id.toString(),
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
           Text(productDataModel.title),
-          const SizedBox(height: 20),
+          const SizedBox(height: 10),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

@@ -1,4 +1,4 @@
-#Thu Apr 27 16:25:54 BDT 2023
-base.0=/home/bjit/AndroidStudioProjects/flutter_bloc_tutorial/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Thu Apr 27 16:48:45 BDT 2023
+base.0=/home/bjit/Desktop/Flutter-Practice/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

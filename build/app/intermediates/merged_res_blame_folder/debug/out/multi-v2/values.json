@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bjit/AndroidStudioProjects/flutter_bloc_tutorial/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/bjit/Desktop/Flutter-Practice/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/bjit/AndroidStudioProjects/flutter_bloc_tutorial/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/bjit/Desktop/Flutter-Practice/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
