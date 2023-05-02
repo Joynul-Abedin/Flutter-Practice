@@ -27,7 +27,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     await Future.delayed(Duration(seconds: 3));
     final groceryData = GroceryData();
     await groceryData.fetchPhotos();
-    groceryData.InsertData();
+    groceryData.insertData();
     print(GroceryData.groceryProducts.first);
     emit(HomeLoadedSuccessState(
         products: GroceryData.groceryProducts

@@ -31,7 +31,6 @@ class ProductTileWidget extends StatelessWidget {
           Text(productDataModel.id.toString(),
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
           Text(productDataModel.title),
-          const SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
