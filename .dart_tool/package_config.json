@@ -75,9 +75,9 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///home/bjit/.pub-cache/hosted/pub.dev/http-0.13.5",
+      "rootUri": "file:///home/bjit/.pub-cache/hosted/pub.dev/http-0.13.6",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "http_parser",
@@ -212,7 +212,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-05-02T09:11:01.551282Z",
+  "generated": "2023-05-02T10:37:30.080509Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

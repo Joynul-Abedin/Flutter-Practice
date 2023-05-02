@@ -39,9 +39,9 @@ flutter_lints
 file:///home/bjit/.pub-cache/hosted/pub.dev/flutter_lints-2.0.1/
 file:///home/bjit/.pub-cache/hosted/pub.dev/flutter_lints-2.0.1/lib/
 http
-2.14
-file:///home/bjit/.pub-cache/hosted/pub.dev/http-0.13.5/
-file:///home/bjit/.pub-cache/hosted/pub.dev/http-0.13.5/lib/
+2.19
+file:///home/bjit/.pub-cache/hosted/pub.dev/http-0.13.6/
+file:///home/bjit/.pub-cache/hosted/pub.dev/http-0.13.6/lib/
 http_parser
 2.12
 file:///home/bjit/.pub-cache/hosted/pub.dev/http_parser-4.0.2/
