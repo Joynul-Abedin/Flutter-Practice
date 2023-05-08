@@ -34,6 +34,8 @@ dependencies:
   bloc:
   flutter_bloc:
   http:
+  sqflite: ^2.2.8
+  path:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -43,8 +45,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  sqflite: ^2.2.8
-  path:
+
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -66,6 +67,42 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/gifs/loader.gif
+    - android/app/src/main/res/values-night/
+    - android/app/src/main/res/values/
+    - android/app/src/main/res/mipmap-xxxhdpi/
+    - android/app/src/main/res/drawable-v21/
+    - android/app/src/main/res/mipmap-xxhdpi/
+    - android/app/src/main/res/mipmap-xhdpi/
+    - android/app/src/main/res/mipmap-hdpi/
+    - android/app/src/main/res/mipmap-mdpi/
+    - android/
+    - android/app/src/main/kotlin/com/example/
+    - android/app/src/main/kotlin/com/example/flutter_bloc_tutorial/
+    - android/app/src/main/kotlin/com/
+    - android/gradle/wrapper/
+    - android/.gradle/
+    - android/.gradle/vcs-1/
+    - android/.gradle/buildOutputCleanup/
+    - android/.gradle/7.4/
+    - android/.gradle/7.4/fileChanges/
+    - android/.gradle/7.4/checksums/
+    - android/.gradle/7.4/dependencies-accessors/
+    - android/.gradle/7.4/vcsMetadata/
+    - android/.gradle/7.4/fileHashes/
+    - android/.gradle/7.4/executionHistory/
+    - android/gradle/
+    - android/app/
+    - android/app/src/
+    - android/app/src/profile/
+    - android/app/src/main/
+    - android/app/src/debug/
+    - android/app/src/main/java/io/flutter/
+    - android/app/src/main/kotlin/
+    - android/app/src/main/res/drawable/
+    - android/app/src/main/java/io/flutter/plugins/
+    - android/app/src/main/res/
+    - android/app/src/main/java/
+    - android/app/src/main/java/io/
 #     - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
+
 import '../features/home/models/home_product_data_model.dart';
 
 class GroceryData {
@@ -41,6 +42,13 @@ class GroceryData {
       productDataModel.toMap(),
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
+
+    // print("fdhfkdf");
+    // final firestoreInstance = FirebaseFirestore.instance;
+    // final collectionRef = firestoreInstance.collection('products');
+    // final productDataMap = productDataModel.toMap();
+    // await collectionRef.doc().set(productDataMap);
+    // await collectionRef.doc(productDataModel.id.toString()).set(productDataMap);
   }
 
   void insertData() async {
@@ -51,4 +59,3 @@ class GroceryData {
     }
   }
 }
-
